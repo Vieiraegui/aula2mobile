@@ -1,0 +1,29 @@
+.p1 {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p2 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.esquerda {
+    background-color: aquamarine;
+    float: left;
+    width: 30%;
+}
+.centro {
+    background-color: bisque;
+    float: left;
+    width: 50%;
+}
+.direita {
+    background-color: rgb(193, 230, 30);
+    float: left;
+    width: 20%;
+}
+@media screen and (max-width: 500px) {
+    .esquerda, .centro, .direita{
+        width: 100%;
+    }
+    
+}
